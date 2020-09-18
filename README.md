@@ -3,10 +3,6 @@
 Being a programmer, I always keep the files which I make /download for further reference. But rarely we use those old files; instead, we create a new file or download.
 The reason behind that it is a tedious task to find the required file from an unorganized folder. 
 So I developed the file organizer program to arrange the directories as per the requirement of the user (arrange by size, date, file extension, or the first alphabet of the file)
-### Demo Video
-https://drive.google.com/drive/folders/1_BMBBBqlNsOeTyHUH-18X78UmO6oYyD6?usp=sharing
-### Screen shots
-https://drive.google.com/drive/folders/11hTex4HH__IWc4p2sePCejVn_ngbm58x?usp=sharing
 ### Build using
 1. Python 3.8 latest version python language. 
 
@@ -15,6 +11,10 @@ https://drive.google.com/drive/folders/11hTex4HH__IWc4p2sePCejVn_ngbm58x?usp=sha
 3. We have to import the argparse,stat,datetime,time,shutil and os modules for this. 
 
 4. Build and tested on windows 10
+### Prerequisites
+•	python 3.8 (Install this from the  official website https://www.python.org/)
+
+•	Basic knowledge of how to use command prompt, how to copy and paste files .
 ### Product Features
 With this project we can organize the files based on size, modified date, extension and alphabets.
 It is a Python script that comes in handy and returns a folder “Organiser” where all the files are organized in a well-manner within seconds. 
@@ -45,6 +45,10 @@ ie, if size is less than 20 KB -SMALL, 20-100KB -  MEDIUM, 100 -500 KB - LARGE, 
 #### By Alphabet
 If the user’s selected option is “alpha”, gets the starting alphabet of each file.
 Then according to the category in which it falls creates the folder like A ,B,C etc.. and gets copied there and deletes the old file.
+### Demo Video
+https://drive.google.com/drive/folders/1_BMBBBqlNsOeTyHUH-18X78UmO6oYyD6?usp=sharing
+### Screen shots
+https://drive.google.com/drive/folders/11hTex4HH__IWc4p2sePCejVn_ngbm58x?usp=sharing
 ### Steps to run the program
 1.	Copy  “junkfileorganizer.py” to your desired location.
 2.	Execute the file from command prompt.
